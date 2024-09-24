@@ -8,4 +8,14 @@
     font-family: "Karla", system-ui;
     font-weight: 700;
   }
+
+  .skip-nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -1000%);
+  }
+
+  .skip-nav:focus {
+    transform: translate(-50%, 0);
+  }
 }
